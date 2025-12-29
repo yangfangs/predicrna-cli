@@ -19,7 +19,7 @@ setup(
     description="A command-line tool for predicting preeclampsia risk using cfRNA expression data",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/cfrna-cli",
+    url="https://github.com/yangfangs/cfrna-cli",
     py_modules=["cfrna_cli"],
     python_requires=">=3.8",
     install_requires=[
