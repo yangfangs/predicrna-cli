@@ -18,7 +18,7 @@ A command-line tool for predicting preeclampsia (PE) risk using cell-free RNA (c
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/predicrna-cli.git
+git clone https://github.com/yangfangs/predicrna-cli.git
 cd predicrna-cli
 ```
 
