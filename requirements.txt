@@ -8,8 +8,9 @@ scikit-learn>=1.0.0
 joblib>=1.1.0
 
 # Deep learning (optional but recommended)
-tensorflow>=2.10.0
+# For macOS (especially Apple Silicon M1/M2), use tensorflow-macos
+tensorflow-macos>=2.10.0; sys_platform == 'darwin'
+tensorflow>=2.10.0; sys_platform != 'darwin'
 
-# For Apple Silicon (M1/M2) users, use:
-# tensorflow-macos>=2.10.0
-# tensorflow-metal>=0.6.0
+# Optional metal plugin for GPU acceleration on Mac
+tensorflow-metal>=0.6.0; sys_platform == 'darwin' and platform_machine == 'arm64'
