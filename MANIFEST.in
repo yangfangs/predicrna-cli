@@ -1,0 +1,7 @@
+include README.md
+include README_CN.md
+include LICENSE
+include requirements.txt
+recursive-include models *.pkl
+recursive-include examples *.csv
+recursive-include data *

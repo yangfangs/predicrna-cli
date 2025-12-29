@@ -1,0 +1,3 @@
+sample_id,prediction,pe_probability,normal_probability,confidence,severity_level,severity_score,risk_score,risk_level,recommendation
+PE_Patient_001,Preeclampsia,0.9999999999948983,5.101561758023534e-12,High,Mild,0.72,100.0,Critical,Immediate specialist consultation recommended
+PE_Patient_002,Normal,9.45089563990016e-10,0.9999999990549071,High,Mild,0.57,0.0,Low,Continue routine prenatal care

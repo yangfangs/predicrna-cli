@@ -1,0 +1,5 @@
+sample_id,base_pe_probability,week12_probability,week12_risk_score,week12_risk_level,week20_probability,week20_risk_score,week20_risk_level,week28_probability,week28_risk_score,week28_risk_level
+Normal_Sample_001,0.0,0.0,0.0,Low,0.0,0.0,Low,0.0,0.0,Low
+Normal_Sample_002,0.0,0.0,0.0,Low,0.0,0.0,Low,0.0,0.0,Low
+PE_Sample_001,1.0,0.9583,95.83,Critical,0.9588,95.88,Critical,0.9593,95.93,Critical
+PE_Sample_002,1.0,0.9577,95.77,Critical,0.9582,95.82,Critical,0.9587,95.87,Critical
